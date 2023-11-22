@@ -7,18 +7,19 @@
 </head>
 <body>
     <header>
-        <h1>Fancy header menu</h1>
+        <div><h1>The best test site ever!</h1>
         <p>This is where a fancy header menu would go if I knew how to make one</p>
-        <a href="index.html" target="_parent">
-            <img src="8664820_face_grin_stars_icon.png" alt="Site logo">
-        </a>
-        <p>Read about different topics here:</p>
-        <a href="innerPage1.html" target="_parent">Page1</a>
-        <a href="innerPage2.html" target="_parent">Page2</a>
-        <a href="innerPage3.html" target="_parent">Page3</a>
-        <br>
-        <button>Dark mode</button>
+        <a href="/">
+            <img src="images\8664820_face_grin_stars_icon.png" alt="Site logo"></a>
+        </div>
+        <div><ul>Read about different topics here:</ul>
+        <li><a href="innerPage1.html">Page1</a></li>
+        <li><a href="innerPage2.html">Page2</a></li>
+        <li><a href="innerPage3.html">Page3</a></li>
+        </div>
+        <div><button>Dark mode</button>
         <button>Accessability</button>
+        </div>
     </header>
 
     <div>
@@ -26,39 +27,41 @@
     </div>
 
     <footer>
-        <h1>Fancy footer menu</h1>
-        <p>This is where a fancy footer menu with cool info would go if I knew how to make one</p>
-    
-        <a href="index.html" target="_parent">
-            <img src="8664820_face_grin_stars_icon.png" alt="Site logo">
+        <a href="/">
+            <img src="images\8664820_face_grin_stars_icon.png" alt="Site logo">
         </a>
-        <a href="innerPage1.html" target="_parent">Page1ButDifferent</a>
-        <a href="innerPage2.html" target="_parent">Page2ButDifferent</a>
-        <a href="innerPage3.html" target="_parent">Page3ButDifferent</a>
-        <br>
-        <p>Join us on these social sites and be our friend!</p>
-        <a href="https://www.facebook.com/">
-            <img src="5340250_book_face_facebook_fb_icon.png">
-        </a>
-        <a href="https://discord.com/">
-            <img src="2959743_chat_discord_gaming_icon.png">
-        </a>
-        <a href="https://www.instagram.com/">
-            <img src="8666638_instagram_icon.png">
-        </a>
-        <br>
         <div>
-            <h3>Review us!</h3>
-            <form action="allegedFormSubmitServerOrSomething.php">
-              <label for="fname">First name:</label>
-              <input type="text" id="fname" name="fname"><br>
-              <label for="email">Email:</label>
-              <input type="text" id="email" name="email"><br>
-              <label for="number">Phone number:</label>
-              <input type="text" id="number" name="number"><br>
-              <textarea id="review" name="review" rows="4" cols="50">Write us!</textarea><br>
-              <label for="agreement">I agree to the terms and conditions</label>
+        <ul>About
+            <li><a href="innerPage1.html">Contacts</a></li>
+        <li><a href="innerPage2.html">Career</a></li>
+        <li><a href="innerPage3.html">Mission and vision</a></li>
+        </ul>
+        </div>
+        <div>
+        <ul>Join us on these social sites and be our friend!
+        <li><a href="https://www.facebook.com/">
+            <img src="images\5340250_book_face_facebook_fb_icon.png"></a>
+        </li>
+        <li><a href="https://discord.com/">
+            <img src="images\2959743_chat_discord_gaming_icon.png"></a>
+        </li>
+        <li><a href="https://www.instagram.com/">
+            <img src="images\8666638_instagram_icon.png"></a>
+        </li>
+        </ul>
+        </div>
+        <div>
+            <h2>Review us!</h2>
+            <form>
+              <div><label for="fname">First name:</label>
+              <input type="text" id="fname" name="fname"></div>
+              <div><label for="email">Email:</label>
+              <input type="text" id="email" name="email"></div>
+              <div><label for="number">Phone number:</label>
+              <input type="text" id="number" name="number"></div>
+              <textarea placeholder="Write us!" id="review" name="review" rows="4" cols="50"></textarea><br>
               <input type="checkbox" id="agreement" name="agreement">
+              <label for="agreement">I agree to the terms and conditions</label>
               <input type="submit" value="Submit">
             </form>
         </div>
